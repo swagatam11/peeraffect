@@ -1,0 +1,23 @@
+bibentry(
+  bibtype = "Manual",
+  title = "peeraffect: Peer Effects in Affect on Team Networks",
+  author = person("Swagatam", "Sinha",
+                  comment = c(ORCID = "0009-0009-8798-4076")),
+  year = "2026",
+  note = paste("R package version", meta$Version),
+  textVersion = paste0(
+    "Sinha, S. (2026). peeraffect: Peer Effects in Affect on Team Networks. ",
+    "R package version ", meta$Version, ".")
+)
+
+bibentry(
+  bibtype = "Article",
+  title = "'Are You Listening?': Sentiment Diffusion in GitHub",
+  author = person("Swagatam", "Sinha"),
+  journal = "Academy of Management Proceedings",
+  DOI= "https://doi.org/10.5465/AMBPP.2022.10036abstract"
+  year = "2022",
+  textVersion = paste0(
+    "Sinha, S. (2022). 'Are You Listening?': Sentiment Diffusion in GitHub. ",
+    "Academy of Management Proceedings.")
+)
