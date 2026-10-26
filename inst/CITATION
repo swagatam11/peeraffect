@@ -15,7 +15,7 @@ bibentry(
   title = "'Are You Listening?': Sentiment Diffusion in GitHub",
   author = person("Swagatam", "Sinha"),
   journal = "Academy of Management Proceedings",
-  DOI= "https://doi.org/10.5465/AMBPP.2022.10036abstract"
+  DOI= "https://doi.org/10.5465/AMBPP.2022.10036abstract",
   year = "2022",
   textVersion = paste0(
     "Sinha, S. (2022). 'Are You Listening?': Sentiment Diffusion in GitHub. ",
