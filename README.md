@@ -22,7 +22,7 @@ peer effects from correlated shocks and homophily.
 
 ```r
 # install.packages("remotes")
-remotes::install\_github("GITHUB\_USER/peeraffect")
+remotes::install_github("GITHUB_USER/peeraffect")
 ```
 
 ## Usage
@@ -30,17 +30,17 @@ remotes::install\_github("GITHUB\_USER/peeraffect")
 ```r
 library(peeraffect)
 
-p  <- pa\_panel(df, person = "dev", team = "repo", period = "month",
+p  <- pa_panel(df, person = "dev", team = "repo", period = "month",
                affect = "sentiment", weight = "words")
 
 # Correlation: fixed-effects linear-in-means
-pm <- pa\_peer\_means(p)
-pa\_fit\_fe(pm)
+pm <- pa_peer_means(p)
+pa_fit_fe(pm)
 
 # Causal: outburst-based peer-of-peer IV
-ob <- pa\_outbursts(p)          # thresholds and neutral band are arguments
-tr <- pa\_triads(p, ob)
-fit <- pa\_fit\_iv(tr)
+ob <- pa_outbursts(p)          # thresholds and neutral band are arguments
+tr <- pa_triads(p, ob)
+fit <- pa_fit_iv(tr)
 fixest::fitstat(fit, "ivf1")   # first-stage F
 ```
 
