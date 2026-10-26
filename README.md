@@ -22,7 +22,7 @@ peer effects from correlated shocks and homophily.
 
 ```r
 # install.packages("remotes")
-remotes::install_github("GITHUB_USER/peeraffect")
+remotes::install_github("swagatam11/peeraffect")
 ```
 
 ## Usage
