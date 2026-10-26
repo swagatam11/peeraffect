@@ -1,9 +1,8 @@
 # peeraffect
 
-**Status: early development.** The interface may change without notice.
+**Status: In development.** The interface may change without notice.
 
 peeraffect estimates peer effects in affect/ sentiment, primarily diffusion
-
 over interpersonal networks. It uses digital traces: does one
 person's expressed affect move the affect of the people they work with? It
 treats per-person, per-team, per-period affect scores, such as monthly
@@ -50,10 +49,8 @@ fixest::fitstat(fit, "ivf1")   # first-stage F
 The design builds on Sinha (2022), "'Are You Listening?': Sentiment Diffusion
 in GitHub", *Academy of Management Proceedings*, also chapter 8 of the
 author's ETH Zurich doctoral thesis. This package is a fresh implementation 
-
 which builds on that work, primarily to enable others to implement "outburst" based IV design in 
-
-interpersonal networks
+interpersonal affective networks
 
 ## Research agenda
 
