@@ -4,8 +4,8 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Swagatam", "Sinha", , "swagatam.sinha11@gmail.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0009-0009-8798-4076"))
-Description: A single R package to study peer effects in affect or sentiment diffusion over networks. Implements sentiment scores
-    derived from text in repeated person-by-team-by-period data. The package
+Description: A single R package to study peer effects in affect or sentiment diffusion over networks. Accepts sentiment scores
+    derived from text in repeated person-by-team-by-period data. The package uses sentiment scores (e.g., provided by VADER) and
     builds exclusive peer means and lags, detects team-level affect
     outbursts, constructs intransitive triads of teams that share exactly one
     person, and wraps fixed-effects and peer-of-peer instrumental-variable
